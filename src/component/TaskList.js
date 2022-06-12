@@ -6,19 +6,15 @@ const TaskList = () => {
   const { todos } = useContext(TaskListContext);
   return (
     <div>
-      <ul className="list">
-        {todos.map((todo) => {
-          return (
-            <Task
-              todo={todo}
-              key={todo.id}
-              onClick={() => {
-                console.log(todo);
-              }}
-            />
-          );
-        })}
-      </ul>
+      {todos.length ? (
+        <ul className="list">
+          {todos.map((todo) => {
+            return <Task todo={todo} key={todo.id} />;
+          })}
+        </ul>
+      ) : (
+        <div className="no-tasks">Add Some Todos...</div>
+      )}
     </div>
   );
 };
