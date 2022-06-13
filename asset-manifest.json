@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todos_tailnode/static/css/main.fc8ff1db.css",
+    "main.js": "/todos_tailnode/static/js/main.3ddf1636.js",
+    "index.html": "/todos_tailnode/index.html",
+    "main.fc8ff1db.css.map": "/todos_tailnode/static/css/main.fc8ff1db.css.map",
+    "main.3ddf1636.js.map": "/todos_tailnode/static/js/main.3ddf1636.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc8ff1db.css",
+    "static/js/main.3ddf1636.js"
+  ]
+}
